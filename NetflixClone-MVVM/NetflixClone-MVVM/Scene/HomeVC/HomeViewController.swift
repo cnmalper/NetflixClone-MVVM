@@ -23,6 +23,8 @@ class HomeViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(CollectionTableViewCell.self, forCellReuseIdentifier: CollectionTableViewCell.identifier)
+        let headerView = MainHeroHeaderView(frame: CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight * 0.35))
+        tableView.tableHeaderView = headerView
         view.addSubview(tableView)
         tableView.snp.makeConstraints { make in
             make.top.bottom.left.right.equalToSuperview()

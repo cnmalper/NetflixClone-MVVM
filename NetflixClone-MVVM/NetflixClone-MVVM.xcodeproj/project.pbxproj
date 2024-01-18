@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B41A02A12B59766900DB9BB0 /* MainHeroHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41A02A02B59766900DB9BB0 /* MainHeroHeaderView.swift */; };
 		B44EF68B2B57142C00275860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44EF68A2B57142C00275860 /* AppDelegate.swift */; };
 		B44EF68D2B57142C00275860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44EF68C2B57142C00275860 /* SceneDelegate.swift */; };
 		B44EF68F2B57142C00275860 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44EF68E2B57142C00275860 /* MainTabbarController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B41A02A02B59766900DB9BB0 /* MainHeroHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeroHeaderView.swift; sourceTree = "<group>"; };
 		B44EF6872B57142C00275860 /* NetflixClone-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetflixClone-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44EF68A2B57142C00275860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B44EF68C2B57142C00275860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B41A029F2B59762A00DB9BB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B41A02A02B59766900DB9BB0 /* MainHeroHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B44EF67E2B57142C00275860 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +146,7 @@
 		B460B04E2B5843120020F32A /* HomeVC */ = {
 			isa = PBXGroup;
 			children = (
+				B41A029F2B59762A00DB9BB0 /* Views */,
 				B460B05D2B585FA00020F32A /* Cell */,
 				B460B0522B5843C50020F32A /* HomeViewController.swift */,
 			);
@@ -258,6 +269,7 @@
 				B460B0552B5843ED0020F32A /* UpComingViewController.swift in Sources */,
 				B44EF68D2B57142C00275860 /* SceneDelegate.swift in Sources */,
 				B460B0632B5865510020F32A /* CGFloat+Ext.swift in Sources */,
+				B41A02A12B59766900DB9BB0 /* MainHeroHeaderView.swift in Sources */,
 				B460B0652B586CDB0020F32A /* MovieCollectionViewCell.swift in Sources */,
 				B460B0532B5843C50020F32A /* HomeViewController.swift in Sources */,
 				B460B0612B58621B0020F32A /* CollectionTableViewCell.swift in Sources */,

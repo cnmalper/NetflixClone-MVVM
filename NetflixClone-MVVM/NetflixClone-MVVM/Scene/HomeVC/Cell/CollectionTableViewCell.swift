@@ -45,7 +45,8 @@ extension CollectionTableViewCell: UICollectionViewDelegate, UICollectionViewDat
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MovieCollectionViewCell.identifier, for: indexPath)
-        cell.backgroundColor = .systemRed
+        cell.backgroundColor = .red
+        cell.layer.cornerRadius = 10
         return cell
     }
 }
